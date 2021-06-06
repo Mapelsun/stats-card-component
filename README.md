@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/Mapelsun/stats-card-component]
-- Live Site URL: [(https://mapelsun.github.io/stats-card-component/]
+- Solution URL: [GitHub](https://github.com/Mapelsun/stats-card-component)
+- Live Site URL: [GitHub Pages](https://mapelsun.github.io/stats-card-component/)
 
 ## My process
 
