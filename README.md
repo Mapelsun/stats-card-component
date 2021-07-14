@@ -8,7 +8,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
@@ -16,6 +15,8 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
+
+Stats preview card component challenge
 
 ### The challenge
 
@@ -31,8 +32,6 @@ Users should be able to:
 
 - Solution URL: [GitHub](https://github.com/Mapelsun/stats-card-component)
 - Live Site URL: [GitHub Pages](https://mapelsun.github.io/stats-card-component/)
-
-## My process
 
 ### Built with
 
@@ -52,11 +51,13 @@ See below:
 ```html
 <div class="img-box">
   <img
-    src="images/image-header-mobile.jpg"
+    src="images/image-header-desktop.jpg"
     srcset="
-      images/image-header-mobile.jpg   500w,
-      images/image-header-desktop.jpg 1000w
+      images/image-header-mobile.jpg  480w,
+      images/image-header-desktop.jpg 600w
     "
+    sizes="(max-width: 600px) 480px,
+            600px"
     alt="image-header"
   />
 </div>
